@@ -176,4 +176,4 @@ bot.login(process.env.BOT_TOKEN).catch((err) => console.log(`[Client] Bağlantı
 process.on("unhandledRejection", err => {
   console.error("Uncaught Promise Error: \n" + err.stack);
 });
-client.login('NDQyMzgwNzkwNTQyNjMwOTEy.Dc9-zw.q4TDPaV__XsCBnFHqBISE7tmf1w');
+client.login('tokeniniz');
